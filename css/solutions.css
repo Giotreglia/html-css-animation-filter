@@ -91,7 +91,7 @@
 }
 
 .ex-11-icon:hover {
-    animation: spin2 3s ease-out;
+    animation: spin2 3s linear;
     animation-iteration-count: infinite;
 }
 
