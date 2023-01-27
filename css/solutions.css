@@ -113,4 +113,37 @@
     }
 }
 
+.ex-12-button:hover .ex-12-top-white {
+    animation: muovisx 2s;
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: muovidx 2s;
+}
+
+@keyframes muovisx {
+    0% {
+        left: 20px;
+    }
+    50% {
+        left: 120px;
+    }
+    100% {
+        left: 20px;
+    }
+}
+
+@keyframes muovidx {
+    0% {
+        right: 40px;
+    }
+    50% {
+        right: 130px;
+    }
+    100% {
+        right: 40px;
+    }
+}
+
+
 
